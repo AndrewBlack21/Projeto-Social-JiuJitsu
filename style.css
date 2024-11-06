@@ -1,21 +1,55 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background: black;
-    color: white;
-    
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px
 }
 
-.row{
-    justify-content: center;
-    margin: 10px;
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.letras{
-    margin: 20px;
+header h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+header nav a {
+    color: #007bff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #0056b3;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.caixa{
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .centralizar{
@@ -25,12 +59,26 @@ body{
     align-content: center;
 }
 
-.caixa{
-    padding: 60px 0;
-    border-bottom: 1px solid #e5e5e5;
-
+.botons{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: ;
+    justify-content: center;
+    align-content: center;
 }
 
-footer p a{
-    margin: 5px 15px;
+.central{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
 }
+.preco{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
