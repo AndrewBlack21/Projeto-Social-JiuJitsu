@@ -38,6 +38,10 @@ header nav a:hover {
     color: #0056b3;
 }
 
+section img{
+    border-radius: 8px;
+}
+
 .section {
     display: flex;
     flex-direction: row;
@@ -56,6 +60,7 @@ header nav a:hover {
     position: ;
     padding: 10px;
     color: #fff;
+    border-radius: 10px;
 }
 
 /* caixa2 */
@@ -141,4 +146,3 @@ header nav a:hover {
     flex-wrap: wrap;
 }
 }
-
