@@ -63,6 +63,10 @@ section img{
     border-radius: 10px;
 }
 
+.color1 a{
+    color: white;
+}
+
 /* caixa2 */
 .caixa2{
     display: flex;
@@ -77,6 +81,26 @@ section img{
         flex-wrap: wrap;
         max-width: 100%;
     }
+    /* .mecanismo{
+        display: none;
+    } */
+}
+
+b{
+    text-decoration: none;
+}
+
+section b{
+    color: #1a2b3c;
+    text-decoration: none;
+    text-transform: none;
+    
+}
+
+b:hover{
+    color: #0056b3;
+    text-decoration: none;
+    text-transform: none;
 }
 
 .caixa{
